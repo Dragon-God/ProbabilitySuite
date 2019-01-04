@@ -6,12 +6,14 @@
 /*
 *	Generates a valid, random probability distribution for a given array of elements, that can be used in conjunction with "probSelect()".
 *	Input: 
-		$arr: An array of elements.
-		$control: A value that decides how much mass is allowed to be unilaterally dumped onto one element. A high value would permit distributions where most of the mass is concentrated on one element. 
+*		$arr: An array of elements.
+*		$control: A value that decides how much mass is allowed to be unilaterally dumped onto one element. A high value would permit distributions where most of the mass is concentrated on one element. 
 		If an invalid value is provided, the default is used.
-*	Output: An associative array where the keys are the elements in the original array, and the values are their probabilities. 
-*	@param array $arr:	An array of elements for which the probability distribution would be generated. 
-*	@param float $control: A variable which limits the inequality of the probability distribution.
+*	Output: 
+*		An associative array where the keys are the elements in the original array, and the values are their probabilities. 
+*	@params 
+*		array $arr:	An array of elements for which the probability distribution would be generated. 
+*		float $control: A variable which limits the inequality of the probability distribution.
 */
 	function probGen(array $arr, float $control = 0.01)	
 	{

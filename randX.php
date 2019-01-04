@@ -1,10 +1,13 @@
 <?
 /*
 *	Generates a random number between between two real numbers (both inclusive). 
-*	Input: Two floating point numbers.
-*	Output: A random floating point number.
-*	@param float $a: A floating point number that forms either the lower or upper bound for the PRNG.
-*	@param float $b: A floating point number that forms either the lower or upper bound for the PRNG.
+*	Input: 
+*		Two floating point numbers.
+*	Output: 
+*		A random floating point number.
+*	@params 
+*		float $a: A floating point number that forms either the lower or upper bound for the PRNG.
+*		float $b: A floating point number that forms either the lower or upper bound for the PRNG.
 */
 	function randX(float $a, float $b): float	
 	{

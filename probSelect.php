@@ -3,9 +3,12 @@
 
 /*
 *	A function to select an element from an array with indicated probabilites.
-*	Input: An associative array whose keys are the elements to be selected from, and whose values are the associated probabilities.
-*	Output: The selected element, or "NULL" if an invalid probability distribution was supplied. 
-*	@param Array $arr: The array containing the probability distribution.
+*	Input: 
+*		An associative array whose keys are the elements to be selected from, and whose values are the associated probabilities.
+*	Output: 
+*		The selected element, or "NULL" if an invalid probability distribution was supplied. 
+*	@params 
+*		array $arr: The array containing the probability distribution.
 */	
 	function probSelect(array $arr)	
 
