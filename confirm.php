@@ -12,6 +12,6 @@
 */
 	function confirm(array $arr, int $precision = 6)
 	{
-		print("SUM: ".array_sum($arr)."<br>");
-		return (round(array_sum($arr), $precision) == 1)?true:false;
+		// print("SUM: ".array_sum($arr)."<br>");
+		return (round(array_sum($arr), $precision) == 1);
 	}
