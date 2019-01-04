@@ -1,4 +1,4 @@
-<?
+<?php
 	require_once("confirm.php");
 
 /*
@@ -32,4 +32,3 @@
 			return null;
 		}
 	}
-?>

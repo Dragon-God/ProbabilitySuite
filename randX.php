@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 *	Generates a random number between between two real numbers (both inclusive). 
 *	Input: 
@@ -17,4 +17,3 @@
 		$y = lcg_value()*$x;	
 		return $min+$y;
 	}
-?>

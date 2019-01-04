@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 *	Confirms that the supplied array has a valid probability distribution.
 *	Input: 
@@ -15,4 +15,3 @@
 		print("SUM: ".array_sum($arr)."<br>");
 		return (round(array_sum($arr), $precision) == 1)?true:false;
 	}
-?>

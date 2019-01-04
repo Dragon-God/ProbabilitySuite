@@ -1,4 +1,4 @@
-<?
+<?php
 	require_once("randX.php");	#"randX()" generates a random floating point number in a specified range.
 	// require_once("../displayArray.php");  
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
@@ -42,8 +42,3 @@
 			return probGen($arr, $control);	
 		}
 	}
-	$max = NULL;		
-	unset($max);
-	$result = NULL;	
-	unset($result);
-?>

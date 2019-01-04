@@ -1,4 +1,4 @@
-<?
+<?php
 	function uniformGen(array $arr, int $precision = 6)
 /*
 *	Generates a uniform probability distribution for a given array.
@@ -27,4 +27,3 @@
 			return uniformGen($arr, $precision);
 		}
 	}
-?>
